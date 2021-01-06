@@ -1,0 +1,76 @@
+.carousel-img {
+    opacity: 0.5;
+}
+.carousel-item {
+    background-color: black;
+    height: 50vh;
+}
+@media only screen and (max-width: 1024px) {
+    .carousel-item {
+        height: 40vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .carousel-item {
+        height: 23vh;
+    }
+}
+
+.main-box {
+    border: 3px solid rgb(247, 64, 64);
+    border-bottom: none;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.main-heading {
+    background-image: url("hearts.jpg");
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-bottom: 8px;
+}
+.navbar-top {
+    background-image: url("hearts.jpg");
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+.carousel {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.carousel-item {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.carousel-img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card img {
+    max-width: 100px;
+}
+.card {
+    min-height: 280px;
+}
