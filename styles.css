@@ -74,3 +74,11 @@
 .card {
     min-height: 280px;
 }
+select {
+    height: 45px;
+    overflow: auto;
+}
+
+.card img {
+    height: 120px;
+}
