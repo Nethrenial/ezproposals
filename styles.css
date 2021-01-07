@@ -82,3 +82,9 @@ select {
 .card img {
     height: 120px;
 }
+
+.navbar-top  {
+    color: white;
+    font-weight: 900;
+    opacity: 1;
+}
