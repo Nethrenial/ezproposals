@@ -38,6 +38,16 @@
     -o-border-radius: 10px;
     padding-bottom: 8px;
 }
+.main-heading-2 {
+    
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-bottom: 8px;
+}
 .navbar-top {
     background-image: url("hearts.jpg");
     border-radius: 0 0 10px 10px;
@@ -68,9 +78,6 @@
     -o-border-radius: 10px;
 }
 
-.card img {
-    max-width: 100px;
-}
 .card {
     min-height: 280px;
 }

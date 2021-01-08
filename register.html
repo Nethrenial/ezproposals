@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/115370f697.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>EZProposals</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-danger navbar-top header"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">EZProposals</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/proposals.html">Proposals</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profile
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/contact.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contact us!</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-box mt-3 mx-1">
+      <h1 class="text-center main-heading-2 mt-2 bg-danger">
+        Register for an account.
+      </h1>
+      <div class="container">
+        <form class="row g-3 mt-2">
+          <div class="col-md-6">
+            <label for="fname" class="form-label">First name:</label>
+            <input type="text" class="form-control" id="fname" />
+          </div>
+          <div class="col-md-6">
+            <label for="lname" class="form-label">Last name:</label>
+            <input type="text" class="form-control" id="lname" />
+          </div>
+          <div class="col-md-6">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <label class="form-check-label" for="flexRadioDefault1">
+                Male
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault2"
+              />
+              <label class="form-check-label" for="flexRadioDefault2">
+                Female
+              </label>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="bday">Date of Birth</label>
+            <input type="date" name="birthday" id="bday" />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Province</label>
+            <select id="inputState" class="form-select">
+              <option value="western" selected>Western</option>
+              <option value="southern">Southern</option>
+              <option value="eastern">Eastern</option>
+              <option value="nothern">Nothern</option>
+              <option value="northwestern">North Western</option>
+              <option value="central">Central</option>
+              <option value="sabaragamuwa">Sabaragamuwa</option>
+              <option value="uva">Uva</option>
+              <option value="northcentral">North Central</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="number" class="form-control" id="inputZip" />
+          </div>
+          <div class="col-12">
+            <label for="email"> Email: </label>
+            <input type="email" name="email" id="email" class="form-control" />
+          </div>
+          <div class="col-md-6">
+            <label for="password1">Password :</label>
+            <input
+              type="password"
+              name="password1"
+              id="pass1"
+              class="form-control"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="password2">Confirm password :</label>
+            <input
+              type="password"
+              name="password2"
+              id="pass2"
+              class="form-control"
+            />
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                <i class="fas fa-eye"></i>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-grid mx-auto">
+            <button type="submit" class="btn btn-outline-danger mb-5">
+              Register
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="/index.html">EZProposals</a>
+        <span class="mx-auto text-light"
+          >&copy; Created By Nethsara Sandeepa for EZProposals. &nbsp;<a
+            href="#"
+            class="btn btn-block btn-outline-light"
+            >Visit Site <i class="fas fa-arrow-right"></i></a
+        ></span>
+      </div>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
