@@ -77,6 +77,11 @@
       <h1 class="text-center main-heading-2 mt-2 bg-danger">
         Create your post.
       </h1>
+     <form action="/post" method="POST">
+     <div class="mb-3 mx-5 mt-3">
+  <label for="formFile" class="form-label">Upload minimum of two photos.</label>
+  <input class="form-control" type="file" id="formFile" multiple>
+</div>
       <div class="mb-3 mt-3 mx-5">
         <label for="exampleDataList" class="form-label">Education level:</label>
         <input
@@ -93,6 +98,56 @@
         </datalist>
       </div>
       <div class="mb-3 mt-3 mx-5">
+        <label for="exampleDataList" class="form-label"
+          >Lagna (Ascendant):</label
+        >
+        <input
+          class="form-control"
+          list="datalistOptions2"
+          id="exampleDataList"
+          placeholder="Type to search..."
+        />
+        <datalist id="datalistOptions2">
+          <option value="l1">sd</option>
+          <option value="sag">Se</option>
+          <option value="as">sg</option>
+          <option value="gs">sg</option>
+          <option value="e">3</option>
+          <option value="w">21</option>
+          <option value="we">21</option>
+          <option value="er">34</option>
+          <option value="rrw">23</option>
+          <option value="fwef">f3f</option>
+          <option value="ff">efwe</option>
+          <option value="ff">eww</option>
+        </datalist>
+      </div>
+       <div class="mb-3 mt-3 mx-5">
+       <label for="exampleDataList3" class="form-label">Religion</label>
+        <input
+          class="form-control"
+          list="datalistOptions3"
+          id="exampleDataList3"
+          placeholder="Type to search..."
+        />
+        <datalist id="datalistOptions3">
+          <option value="Buddhist"></option>
+          <option value="Hindu"></option>
+          <option value="Christian"></option>
+          <option value="Islam"></option>
+        </datalist>
+      </div>
+      <div class="mb-3 mt-3 mx-5">
+        <label for="exampleFormControlTextarea12" class="form-label"
+          >Occupation</label
+        >
+        <input type="text"
+          class="form-control"
+          id="exampleFormControlTextarea12"
+          name="occupation"
+        ></input>
+      </div>
+      <div class="mb-3 mt-3 mx-5">
         <label for="exampleFormControlTextarea1" class="form-label"
           >Brief Summary (Think of this as a typical proposal seen in a sunday
           newspaper.)</label
@@ -103,6 +158,11 @@
           rows="5"
         ></textarea>
       </div>
+      <div class="col-12 col-md-6 d-grid mx-auto">
+            <button type="submit" class="btn btn-outline-danger mb-5">
+              Register
+            </button>
+          </div></form>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
       <div class="container-fluid">

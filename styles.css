@@ -87,7 +87,8 @@ select {
 }
 
 .card img {
-    height: 120px;
+    height: 100px;
+    width: auto;
 }
 
 .navbar-top  {
